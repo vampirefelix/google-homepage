@@ -1,0 +1,93 @@
+         body{
+            font-family: arial, sans-serif;
+            font-size: 14px;
+        }
+        .nav{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            position: fixed;
+            top: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .clicky{
+            float: left;
+            position:relative;
+            display: inline;
+            top: 0;
+            padding: 8px;
+            margin: 15px 100px 0px 100px;
+            order: 1;     
+        }
+        button{
+            padding: 12px 6px 12px 6px;
+            border: none;
+            
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        }
+        .logo{
+            padding-bottom: 40px;
+        }
+        .searchbar{
+            display: grid;
+            justify-items: center;
+            margin-top: 200px;
+            height: 34px;
+
+        }
+        .search-input{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            border: 0px thin;
+            border-radius: 50px;
+            border-style:solid;
+            width:30%;
+            height: 38px;
+
+        }
+        .bulbasaur{
+            padding-top: 25px;
+        }
+        .lucky:hover{
+            animation-name: colorful;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes colorful {
+            0% {
+                background-color: red;
+            }
+            25%{
+                background-color: orange;
+            }
+            50% {
+                background-color: yellow;
+            }
+            75% {
+                background-color: green;
+            }
+            100% {
+                background-color: blue;
+            }
+        }
+        .foot {
+            list-style-type: none;
+            margin: 0px;
+            padding: 10px;
+            width: 100%;
+            background-color: rgb(230, 221, 221);
+            position: fixed;
+            bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
