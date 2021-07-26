@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!--.・。.・゜✭・.・✫・゜・。..・。.・゜✭HELLO WORLD.・。.・゜✭・.・✫・゜・。..・。.・゜✭-->
+<html>
+    <!--CSS Rules-->
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            font-size: 14px;
+        }
+        .nav{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            position: fixed;
+            top: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .clicky{
+            float: left;
+            position:relative;
+            display: inline;
+            top: 0;
+            padding: 8px;
+            margin: 15px 100px 0px 100px;
+            order: 1;     
+        }
+        button{
+            padding: 12px 6px 12px 6px;
+            
+        }
+        }
+        .logo{
+            padding-bottom: 40px;
+        }
+        .searchbar{
+            display: grid;
+            justify-items: center;
+            margin-top: 200px;
+            height: 34px;
+
+        }
+        .search-input{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            border: 0px thin;
+            border-radius: 50px;
+            border-style:solid;
+            width:30%;
+            height: 38px;
+
+        }
+        .bulbasaur{
+            padding-top: 25px;
+        }
+        .lucky:hover{
+            animation-name: colorful;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes colorful {
+            0% {
+                background-color: red;
+            }
+            25%{
+                background-color: orange;
+            }
+            50% {
+                background-color: yellow;
+            }
+            75% {
+                background-color: green;
+            }
+            100% {
+                background-color: blue;
+            }
+        }
+        .foot {
+            list-style-type: none;
+            margin: 0px;
+            padding: 10px;
+            width: 100%;
+            background-color: rgb(230, 221, 221);
+            position: fixed;
+            bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <title> Google </title>
+    </head>
+    <body>
+        <!--NAV Bar-->
+        <ul class="nav"> 
+            <li><a  class="clicky" style="position: relative; right: 60px; " href="https://github.com/vampirefelix">About</a></li>
+            <li><a class="clicky" style="position: relative; right: 250px; " href="https://github.com/vampirefelix">Store</a></li>
+            <li><a class="clicky" style="position: relative; left: 1000px;" href="https://github.com/vampirefelix">Gmail</a></li>
+            <li><a class="clicky" style="position: relative;left: 820px;" href="https://github.com/vampirefelix">Images</a></li>
+            <li><input class="clicky" style= "position: relative; left: 640px;" type="image" src="images/apps.png" href="https://github.com/vampirefelix"></li>
+            <li><button class="clicky" style= "position: relative; left: 450px; background-color: rgb(66, 133, 244); color: white;" type="submit">Sign In </button></li>
+        </ul>
+        <!--SEARCH+Buttons-->
+        <div class="searchbar">
+            <img class= "logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""/>
+    <input class="search-input" type="text" placeholder="🔎" />
+    <div class="bulbasaur">
+    <button type="submit">Google Search </button>
+    <button class="lucky" type="submit">I'm Feeling Lucky </button>
+</div>     
+<!--FOOTER-->
+<ol class="foot">
+    <li><a style="position: relative; left: 10px; " href=""> How Search Works</a></li>
+    <li><a href="https://github.com/vampirefelix" style="position: relative; left: 25px; " href="">Google Homepage Replica </a></li>
+    <li><a href="https://github.com/vampirefelix" style="position: relative; left: 1525px; " href="">Author</a></li>
+    <li><a style="position: relative; left: 1535px; " href="">Settings</a></li>
+</ol>
+    </body>
+</html>
